@@ -1,0 +1,13 @@
+.robohash {
+  background-color: aqua;
+  text-align: center;
+  border:2px solid black;
+  border-radius: 5px;
+  padding: 3px;
+  transition: 1s;
+}
+
+.robohash:hover{
+  transform: scale(1.03);
+  box-shadow: 3px 3px 5px grey;
+}
