@@ -8,7 +8,7 @@ class Card extends React.Component{
       <div>
         <div className="robohash" >
           <p>Name: {name}</p> 
-          <img src= {`https://robohash.org/${id}?200x200`}  alt={`${id}`} />
+          <img src= {`https://robohash.org/${id}?size=200x200`}  alt={`${id}`} />
           <p>Email:{email} </p>  
         </div>
       </div>

@@ -1,4 +1,5 @@
 import React from 'react';
+import CounterButton from './counterButton';
 
 class Header extends React.Component{
   shouldComponentUpdate(){
@@ -10,6 +11,7 @@ class Header extends React.Component{
     return (
     <div>
       <h1 style={{textAlign:'center'}}>ROBOFRIENDS</h1>
+      <CounterButton/>
     </div> 
     )
   }

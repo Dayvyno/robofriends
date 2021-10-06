@@ -40,7 +40,7 @@ class App extends React.Component{
     return(
       <div>
         {
-        (isPending)? <h1>Loading....</h1> :
+        isPending? <h1>Loading....</h1> :
         <div style={{padding:"5px"}} >
           <Header/>
           <SearchBox searchHandler={onSearchChange}/>
