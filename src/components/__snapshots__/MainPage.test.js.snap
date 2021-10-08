@@ -1,0 +1,23 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`It renders mainpage without crashing 1`] = `
+<div>
+  <div
+    style={
+      Object {
+        "padding": "5px",
+      }
+    }
+  >
+    <Header />
+    <SearchBox />
+    <Scroll>
+      <ErrorBoundry>
+        <CardList
+          robots={Array []}
+        />
+      </ErrorBoundry>
+    </Scroll>
+  </div>
+</div>
+`;
